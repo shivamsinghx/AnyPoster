@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 50px 90px;
+    padding-top: 150px;
+    gap: 70px;
+}
+
+#left{
+    height: 100%;
+    width: 45%;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+#left h1{
+    font-size: 145px;
+    font-weight: 500;
+    line-height: 150px;
+}
+
+#bottom-left{
+    height: 40%;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+#color{
+    
+    /* background-color: yellowgreen; */
+    width: fit-content;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#color h5{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+#color1{
+    height: 20px;
+    width: 20px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#color2{
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+#left h2{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#left p{
+    font-size: 20px;
+    width: 60%;
+    font-weight: 600;
+    color: #444;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#right{
+    height: 100%;
+    width: 33%;
+    background-color: yellow;
+}
+
+#right-top{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: work sans;
+}
+
+#right-top h5{
+    font-size: 16px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#blackc{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    background-color: #383737;
+    color: #fff;
+    border-radius: 50%;
+    right: 15%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    top: 20%;
+}
+
+#blackc{
+    font-size: 25px;
+    font-weight: 600;
+}
+
